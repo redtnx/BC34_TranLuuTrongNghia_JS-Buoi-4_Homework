@@ -1,24 +1,23 @@
 // Bài tập 1
 function sorting (a,b,c){
 var sort = ""
-if (a>=b && b>=c){
+if (a>b && a>c){
 sort = c + " , " + b + " , " + a
 } else
-if(a>=b && c>=b){
+if(a>b && c>b){
 sort = b + " , " + c + " , " + a
 } else
-if (b>=a && a>=c){
-sort = c + " , " + a + " , " + b 
-} else
-if (b>=a && c>=a) {
-sort = a + " , " + c + " , " + b 
-} else
-if (c>=a && a>=b) {
+if (a>b && c>a){
 sort = b + " , " + a + " , " + c
 } else
-if (c>=a && b>=a) {
+if (b>a && b>c) {
+sort = c + " , " + a + " , " + b 
+} else
+if (b>c && c>a) {
+sort = a + " , " + c + " , " + b
+} else{
 sort = a + " , " + b + " ,  " + c
-} else{}
+} 
 return sort
 }
 
