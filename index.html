@@ -18,6 +18,189 @@
     />
   </head>
   <body>
+    <div class="exercise mb-5">
+      <div class="container">
+        <div class="question">
+          <h2>
+            Bài tập 1: Cho người dùng nhập vào 3 số nguyên. Viết chương trình
+            xuất 3 số theo thứ tự tăng dần
+          </h2>
+        </div>
+        <div class="answer">
+          <div class="card text-center" style="width: 30rem">
+            <div class="card-header">SẮP XẾP THEO THỨ TỰ TĂNG DẦN</div>
+            <div class="card-body">
+              <div class="form-group mb-2">
+                <label>Số nguyên 1</label>
+                <input
+                  placeholder="Nhập vào số nguyên"
+                  type="number"
+                  id="num1"
+                />
+              </div>
+              <div class="form-group mb-2">
+                <label>Số nguyên 2</label>
+                <input
+                  placeholder="Nhập vào số nguyên"
+                  type="number"
+                  id="num2"
+                />
+              </div>
+              <div class="form-group mb-2">
+                <label>Số nguyên 3</label>
+                <input
+                  placeholder="Nhập vào số nguyên"
+                  type="number"
+                  id="num3"
+                />
+              </div>
+              <div>
+                <button id="sort" class="btn btn-success">Sắp xếp</button>
+              </div>
+            </div>
+            <div class="card-footer">
+              <div><p id="result1"></p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise mb-5">
+      <div class="container">
+        <div class="question">
+          <h2>
+            Bài tập 2: Viết chương trình “Chào hỏi” các thành viên trong gia
+            đình với các đặc điểm. Đầu tiên máy sẽ hỏi ai sử dụng máy. Sau đó
+            dựa vào câu trả lời và đưa ra lời chào phù hợp. Giả sử trong gia
+            đình có 4 thành viên: Bố (B), Mẹ (M), anh Trai (A) và Em gái (E)
+          </h2>
+        </div>
+        <div class="answer">
+          <div class="card text-center" style="width: 30rem">
+            <div class="card-header">CHÀO HỎI</div>
+            <div class="card-body">
+              <div class="form-group mb-2">
+                <label>Ai đang dùng máy tính vậy ạ?</label>
+                <select id="member">
+                  <option value=""></option>
+                  <option value="1">Bố</option>
+                  <option value="2">Mẹ</option>
+                  <option value="3">Anh trai</option>
+                  <option value="4">Em gái</option>
+                </select>
+              </div>
+              <div>
+                <button id="hello" class="btn btn-success">Chào</button>
+              </div>
+            </div>
+            <div class="card-footer">
+              <div><p id="result2"></p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise mb-5">
+      <div class="container">
+        <div class="question">
+          <h2>
+            Bài tập 3: Cho 3 số nguyên. Viết chương trình xuất ra có bao nhiêu
+            số lẻ và bao nhiêu số chẵn.
+          </h2>
+        </div>
+        <div class="answer">
+          <div class="card text-center" style="width: 30rem">
+            <div class="card-header">ĐẾM SỐ</div>
+            <div class="card-body">
+              <div class="form-group mb-2">
+                <label>Số nguyên 1</label>
+                <input
+                  placeholder="Nhập vào số nguyên"
+                  type="number"
+                  id="number1"
+                />
+              </div>
+              <div class="form-group mb-2">
+                <label>Số nguyên 2</label>
+                <input
+                  placeholder="Nhập vào số nguyên"
+                  type="number"
+                  id="number2"
+                />
+              </div>
+              <div class="form-group mb-2">
+                <label>Số nguyên 3</label>
+                <input
+                  placeholder="Nhập vào số nguyên"
+                  type="number"
+                  id="number3"
+                />
+              </div>
+              <div>
+                <button id="count" class="btn btn-success">Đếm</button>
+              </div>
+            </div>
+            <div class="card-footer">
+              <div><p id="result3"></p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise mb-5">
+      <div class="container">
+        <div class="question">
+          <h2>
+            Bài tập 4: Viết chương trình cho nhập 3 cạnh của tam giác. Hãy cho
+            biết đó là tam giác gì? Ví dụ:</br>
+            • a=2, b=2, c=1 => Tam giác cân </br>
+            • a=3, b=3, c=3 => Tam giác đều </br>
+            • a=3, b=4, c=5 => Tam giác vuông (đinh lý Pytago)
+          </h2>
+        </div>
+        <div class="answer">
+          <div class="card text-center" style="width: 30rem">
+            <div class="card-header">TAM GIÁC</div>
+            <div class="card-body">
+              <div class="form-group mb-2">
+                <label>Cạnh a</label>
+                <input
+                  placeholder="Nhập cạnh tam giác"
+                  type="number"
+                  id="side1"
+                />
+              </div>
+              <div class="form-group mb-2">
+                <label>Cạnh b</label>
+                <input
+                  placeholder="Nhập cạnh tam giác"
+                  type="number"
+                  id="side2"
+                />
+              </div>
+              <div class="form-group mb-2">
+                <label>Cạnh c</label>
+                <input
+                  placeholder="Nhập cạnh tam giác"
+                  type="number"
+                  id="side3"
+                />
+              </div>
+              <div>
+                <button id="find" class="btn btn-success">Tìm hình tam giác</button>
+              </div>
+            </div>
+            <div class="card-footer">
+              <div><p id="result4"></p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
@@ -30,5 +213,7 @@
       integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./index.js"></script>
   </body>
 </html>
